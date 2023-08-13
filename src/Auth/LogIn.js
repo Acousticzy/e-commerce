@@ -37,7 +37,7 @@ function LogIn(){
                     <input placeholder='Password*' type="password"required autoComplete="off" onChange={(e) => setPassword(e.target.value)}/>
                 </div>
             
-                <p className="forgot"><a href="#">Forgot Password?</a></p>
+                <p className="forgot"><Link to="/forgotpassword">Forgot Password?</Link></p>
                 <div className='btn'>
                     <button className="button" type="submit">Log In</button>
                 </div> <br />

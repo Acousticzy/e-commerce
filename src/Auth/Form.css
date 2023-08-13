@@ -107,3 +107,12 @@ textarea {
     font-size: 11px;
     width: 102.5%;
 }
+
+.message{
+    background-color: #82E0AA;
+    color: #186A3B;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+    width: 102.5%;
+}

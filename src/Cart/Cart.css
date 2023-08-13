@@ -9,3 +9,33 @@
     font-weight:300;
     margin:0 0 40px;
 }
+
+.pricing{
+    padding: 3px;
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
+    backdrop-filter: saturate(180%) blur(10px);
+    background-color: white;
+    border-radius: 3px;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    margin: 0;
+}
+
+.pricing .text{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;  
+    background: linear-gradient(to right, #0099ff ,#ff3399);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing .heading{
+    font-size: 18px;
+    margin-bottom: -4px;
+}

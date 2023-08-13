@@ -6,6 +6,7 @@ import LogIn from './Auth/LogIn';
 import LogOut from './Auth/LogOut';
 import { AddProducts } from './Product/AddProducts';
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
+import ForgotPassword from './Auth/ForgotPassword';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/signup' element={<SignUp/>} />
           <Route exact path='/login' element={<LogIn/>} />
           <Route exact path='/logout' element={<LogOut/>} />
+          <Route exact path='/forgotpassword' element={<ForgotPassword/>} />
         </Routes>
       </BrowserRouter>
     </div>
