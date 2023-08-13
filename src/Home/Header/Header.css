@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    justify-content: space-evenly;
+    background-color: #1C2833;
+}
+
+.header .logo{
+    display: flex;
+    color: #fff;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.header .logo .logo-image{
+    margin-top: 3px;
+}
+
+.header .search-bar{
+    width: 50%;
+    margin-top: 6px;
+}
+
+.header .search-bar input{
+    width: 90%;
+}
+
+.header .auths{
+    display: flex;
+}
+
+.header .auth{
+    color: white;
+    display: flex;
+    margin-right: 8px;
+    margin-top: 8px;
+    flex-direction: column;
+}
+
+.header .auth #one{
+    font-size: 8px;
+    margin-bottom: -8px;
+}
+
+.header .auth #two a{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.header .cart{
+    margin-top: 13px;
+}
+
+.header .search-bar .search, .header .cart{
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.header .search-bar .search:hover, .header .cart:hover{  
+    color:  grey;
+    transition: 0.5s;
+}
+
+.header .logo .text{
+    background: linear-gradient(to right, #ff3399, #6666ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header .logo .slogan{
+    text-transform: capitalize;
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -3px;
+}
+
+.cart-link{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+#greeting{
+    font-size: 12px;
+    margin-top: 12px;
+}

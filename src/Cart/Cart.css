@@ -1,0 +1,11 @@
+.empty-btn{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+.heading{
+    text-align:center;
+    font-weight:300;
+    margin:0 0 40px;
+}
