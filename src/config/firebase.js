@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDC2CoJ9JXb_QOrbMxbjvCQnLo4v83CLCs",
+    apiKey: {key},
     authDomain: "dashcart-sl08.firebaseapp.com",
     projectId: "dashcart-sl08",
     storageBucket: "dashcart-sl08.appspot.com",
